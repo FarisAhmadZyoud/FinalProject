@@ -101,6 +101,9 @@ flex-wrap: wrap;
 
 .herosection  .heroitems {
 margin-top: 200px;
+/* how to choose value with out usisng margin top 
+to be disscussed with laith
+*/
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -121,8 +124,8 @@ gap: 3.75rem;
 
 .firstsection .descreption{
     display: flex;
- /*   padding: 1.4% 3% 1.4% 2%;*/
-    padding:14px 30px 14px 20px;
+    padding: 1.4% 3% 1.4% 2%;
+   /* padding:14px 30px 14px 20px;*/
     justify-content: center;
     align-items: center;
     gap: 0.625rem;
@@ -261,7 +264,6 @@ background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: .0625rem;
     flex-shrink: 0;
 }
 
@@ -313,7 +315,7 @@ justify-content: space-between;
   
 flex-wrap: wrap;
   gap : 13.875rem; to be disscussed with laith ? 
-  
+
 
 */ 
 }
@@ -416,8 +418,6 @@ background: var(--White-99, #FCFCFD);
 }
 .cards-items img {
     display: flex;
-    width: 34px;
-    height: 34px;
     color: #FF9500;
     align-self: flex-end;
 
