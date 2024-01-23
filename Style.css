@@ -29,7 +29,7 @@ margin: auto;
     justify-content: space-between;
     align-items: center;
     align-self: stretch;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 .navbar .first-part {
 display: flex;
@@ -988,7 +988,13 @@ line-height: 150%; /* 27px */
         display: none;
     }
     .longdescreption{
-        align-self: stretch;    }
+                flex-direction: column;
+                gap: .625rem;
+                
+                
+    
+            }
+
 
         .partner .row  img:nth-child(4) {
         display: none;
@@ -1026,6 +1032,12 @@ line-height: 150%; /* 27px */
                    }
                    .palns .row {
                     flex-wrap: wrap;
+                   }
+                   .levels {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 14px;
+                    align-self: stretch;
                    }
                    .course-item ,.plans-items {
                     width:calc(100% - 30px);
